@@ -6,7 +6,6 @@
         GoodMC Original WIKI
     </title>
 
-
     <link as="font" crossorigin="" href="https://fonts.gstatic.com/s/ubuntu/v15/4iCv6KVjbNBYlgoCjC3jsGyNL4U.woff2"
           rel="preload">
     <link as="font" crossorigin="" href="https://fonts.gstatic.com/s/ubuntu/v15/4iCs6KVjbNBYlgoKcg72j00.woff2"
@@ -17,9 +16,11 @@
           rel="preload">
     <link as="font" crossorigin="" href="https://fonts.gstatic.com/s/ubuntu/v15/4iCs6KVjbNBYlgoKcw72j00.woff2"
           rel="preload">
-    <link as="font" crossorigin="" href="https://fonts.gstatic.com/s/merriweather/v25/u-4q0qyriQwlOrhSvowK_l5-fCZM.woff2"
+    <link as="font" crossorigin=""
+          href="https://fonts.gstatic.com/s/merriweather/v25/u-4q0qyriQwlOrhSvowK_l5-fCZM.woff2"
           rel="preload">
-    <link as="font" crossorigin="" href="https://fonts.gstatic.com/s/merriweather/v25/u-4q0qyriQwlOrhSvowK_l52wKKh.woff2"
+    <link as="font" crossorigin=""
+          href="https://fonts.gstatic.com/s/merriweather/v25/u-4q0qyriQwlOrhSvowK_l52wKKh.woff2"
           rel="preload">
     <link as="font" crossorigin=""
           href="https://fonts.gstatic.com/s/merriweather/v25/u-4q0qyriQwlOrhSvowK_l52xKKhGA.woff2" rel="preload">
@@ -28,21 +29,12 @@
     <link as="font" crossorigin="" href="https://fonts.gstatic.com/s/merriweather/v25/u-440qyriQwlOrhSvowKIkW.ttf.woff2"
           rel="preload">
 
-
     <meta charset="UTF-8">
     <meta content="" name="description">
     <meta content="width=device-width, height=device-height, initial-scale=1.0" name="viewport">
     <meta content="telephone=no" name="format-detection">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
-
-    <script>
-        const theme = localStorage.getItem('theme');
-        if (theme !== null) {
-            document.documentElement.setAttribute('theme', theme);
-        }
-    </script>
-
 
     <style>
         .menu-flex-container {
@@ -63,6 +55,7 @@
           rel="icon">
 
 
+    <link href="Main/style.css" rel="stylesheet">
     <link href="Main/main-9ad32ac32947b2f0003f.css" rel="stylesheet">
 
 
@@ -73,16 +66,16 @@
 <main id="app">
     <nav class="menu menu-simplified">
         <div class="menu-flex-container">
-            <a class="menu-logo" href="https://goodmc.org/">
-                <span style="margin-left: 10px;">GoodMC 🌳 Original</span>
+            <a class="menu-logo" href="https://opencommunity-original.github.io/WIKI/Main.html">
+                <span style="margin-left: 10px;">GoodMC <span class="tree-emoji">🌳</span> Original</span>
             </a>
         </div>
-            <div class="menu-simplified-right">
-                <a class="hide-on-iphone" href="https://discord.gg/HWPAExBt3A">Discord</a>
-                <a class="button button-black" href="https://goodmc.org/main">Main page</a>
-            </div>
+        <div class="menu-simplified-right">
+            <a class="hide-on-iphone" href="https://discord.gg/HWPAExBt3A">Discord</a>
+            <a class="button button-black" href="Main.html" style="margin-right: 10px;">Main page</a>
+        </div>
     </nav>
-    
+
     <div class="content doc">
         <h1>🏡 Claims<img draggable="false" src=""></h1>
 
@@ -203,16 +196,10 @@
             <input checked="checked" id="checkbox" type="checkbox">
             <span class="slider round"></span>
         </label>
-
-
     </div>
 </footer>
 
-<script>
-    window.imageUploadUrl = "https://i.vas3k.club/upload/multipart/";
-    window.imageUploadCode = "heygimmeupload";
-</script>
-<script src="Main/main-9ad32ac32947b2f0003f.js"></script>
+<script src="Main/theme.js"></script>
 
 </body>
 </html>
