@@ -79,19 +79,121 @@
     <div class="content doc">
         <h1>💰 Trading<img draggable="false" src=""></h1>
 
-        <p></p>
-
         <p>
+            Trading is an advanced barter shop system that enables you to create your own shops and trade items with
+            other players. It offers a user-friendly interface, extensive customization options, and features like
+            multiple item slots, stock inventory access, and protection for items.
+        </p>
+
         <p style="text-align: center;">
-            <img src="">
+            <img src="Data/Tradings/overview.gif">
         </p>
 
         <h2 id="features"><a href="#features">🎁 Features</a></h2>
 
+        <ul>
+            <li>
+                Unique shop GUI for item trading without using coins
+            </li>
+            <li>
+                Compatibility with Bedrock (use the Classic UI Profile in Video Settings)
+            </li>
+            <li>
+                2 item slots for trading or selling, totaling 4 slots
+            </li>
+            <li>
+                5 rows of item trades per shop
+            </li>
+            <li>
+                Unlimited amount of blocks can be set as shop or stock GUI blocks
+            </li>
+            <li>
+                Shop block activates GUI on left or right-click
+            </li>
+            <li>
+                Shop owners receive a message if they are online and someone buys an item
+            </li>
+            <li>
+                Shop owners can type "/shop sold" to view missed shop messages
+            </li>
+            <li>
+                Items can be put into a shulker box and traded to accommodate more item trading while saving shop space
+            </li>
+            <li>
+                Item frames and items within them are protected from explosions
+            </li>
+        </ul>
+
         <h2 id="guide"><a href="#guide">📝 Guide</a></h2>
+        <ol>
+            <li>
+                🛒 <strong>Create a Shop:</strong><br>
+                To create a shop, find an available shop block (barrel) and use the command:<br>
+                <code>/shop create</code>
+            </li>
+            <li>
+                🗑️ <strong>Delete a Shop:</strong><br>
+                To delete a shop, target the desired shop block and use the command:<br>
+                <code>/shop delete</code>
+            </li>
+            <li>
+                📦 <strong>Stock Your Shops:</strong><br>
+                Stock your shops with items by left-clicking on the stock block (end_portal)
+            </li>
+            <li>
+                📜 <strong>List Your Shops:</strong><br>
+                To list your shops with their locations and IDs, use the command:<br>
+                <code>/shop list</code>
+            </li>
+            <li>
+                💡 <strong>Use the GUI:</strong><br>
+                Simply interact with the shop block and follow the on-screen instructions.
+            </li>
+        </ol>
 
         <h2 id="commands"><a href="#commands">📜 Commands</a></h2>
-
+        <ul>
+            <li><strong>/shop count &lt;item&gt;</strong> - Count amount of given item in stock inventory</li>
+            <li><strong>/shop create</strong> - Creates player shop at the targeted location</li>
+            <li><strong>/shop delete</strong> - Deletes shop at the targeted location</li>
+            <li><strong>/shop deleteid &lt;id&gt;</strong> - Deletes a shop you own with the given id number</li>
+            <li><strong>/shop find &lt;item&gt;</strong> - Search all player shops for given item that is for sale</li>
+            <li><strong>/shop list</strong> - Shows list of your shops with location</li>
+            <li><strong>/shop move &lt;id&gt;</strong> - Move given shop id to a new targeted location</li>
+            <li><strong>/shop out</strong> - List shops with rows and items that are out of stock</li>
+            <li><strong>/shop shops</strong> - List every shop in the server with owner player head skins and shop id
+                number
+            </li>
+            <li><strong>/shop sold &lt;page/clear&gt;</strong> - Show missed shop messages with optional page or clear
+                them
+            </li>
+            <h3>Moderator Commands:</h3>
+            <li><strong>/shop adminshop</strong> - Creates an admin shop that does not require stock at the targeted
+                location
+            </li>
+            <li><strong>/shop createlocation &lt;player&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;world&gt;</strong> -
+                Create shop for a player at given location and world. Console can use this command
+            </li>
+            <li><strong>/shop createshop &lt;player&gt;</strong> - Create shop for given player at targeted location
+                bypassing any shop limits
+            </li>
+            <li><strong>/shop delete</strong> - Deletes shop at the targeted location</li>
+            <li><strong>/shop deleteid &lt;id&gt;</strong> - Deletes shop with given id number. Console can use this
+                command
+            </li>
+            <li><strong>/shop deletelocation &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;world&gt;</strong> - Delete shop at given
+                location and world. Console can use this command
+            </li>
+            <li><strong>/shop list &lt;player&gt;</strong> - Shows a list of given players shops with location</li>
+            <li><strong>/shop listadmin</strong> - Shows list of admin shops</li>
+            <li><strong>/shop manage &lt;id&gt;</strong> - Remotely manage players shop with given id</li>
+            <li><strong>/shop managestock &lt;player&gt; &lt;page&gt;</strong> - Remotely manage stock of given player
+            </li>
+            <li><strong>/shop out &lt;player&gt;</strong> - List shops with rows and items that are out of stock for
+                given player
+            </li>
+            <li><strong>/shop removeallshops &lt;player&gt;</strong> - Remove all shops of given player</li>
+        </ul>
     </div>
 </main>
 
@@ -99,9 +201,9 @@
     <div class="footer-left">
         <a href="">GoodMC Original</a> &nbsp;·&nbsp;
 
-        <a href="">Claims</a> &nbsp;·&nbsp;
+        <a href="">Trading</a> &nbsp;·&nbsp;
 
-        <a href="">12.06.2023</a><br><br>
+        <a href="">13.06.2023</a><br><br>
 
         CC BY-SA
     </div>
