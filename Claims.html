@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class=" izodjpo idc0_347" lang="en" theme="dark">
+<html class=" izodjpo idc0_347" lang="en" theme="light">
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <title>
@@ -44,12 +44,19 @@
     </script>
 
 
+    <style>
+        .menu-flex-container {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+
+
     <meta content="GoodMC Original" property="og:title">
     <meta content="GoodMC Original" property="og:site_name">
     <meta content="https://goodmc.org" property="og:url">
     <meta content="website" property="og:type">
     <meta content="" property="og:description">
-    <meta content="/static/images/share.png" property="og:image">
 
 
     <link href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>"
@@ -59,81 +66,23 @@
     <link href="Main/main-9ad32ac32947b2f0003f.css" rel="stylesheet">
 
 
-    <style id="lightense-images-css">
-        :root {
-            --lightense-z-index: 999999;
-            --lightense-backdrop: rgba(0, 0, 0, .4);
-            --lightense-duration: 100ms;
-            --lightense-timing-func: cubic-bezier(.2, 0, .1, 1);
-        }
-
-        .lightense-backdrop {
-            box-sizing: border-box;
-            width: 100%;
-            height: 100%;
-            position: fixed;
-            top: 0;
-            left: 0;
-            overflow: hidden;
-            z-index: calc(var(--lightense-z-index) - 1);
-            padding: 0;
-            margin: 0;
-            transition: opacity var(--lightense-duration) ease;
-            cursor: zoom-out;
-            opacity: 0;
-            background-color: var(--lightense-backdrop);
-            visibility: hidden;
-        }
-
-        @supports (-webkit-backdrop-filter: blur(30px)) {
-            .lightense-backdrop {
-                background-color: var(--lightense-backdrop);
-                -webkit-backdrop-filter: blur(30px);
-            }
-        }
-
-        @supports (backdrop-filter: blur(30px)) {
-            .lightense-backdrop {
-                background-color: var(--lightense-backdrop);
-                backdrop-filter: blur(30px);
-            }
-        }
-
-        .lightense-wrap {
-            position: relative;
-            transition: transform var(--lightense-duration) var(--lightense-timing-func);
-            z-index: var(--lightense-z-index);
-            pointer-events: none;
-        }
-
-        .lightense-target {
-            cursor: zoom-in;
-            transition: transform var(--lightense-duration) var(--lightense-timing-func);
-            pointer-events: auto;
-        }
-
-        .lightense-open {
-            cursor: zoom-out;
-        }
-
-        .lightense-transitioning {
-            pointer-events: none;
-        }</style>
 </head>
 <body>
 
 
 <main id="app">
     <nav class="menu menu-simplified">
-        <a class="menu-logo" href="https://goodmc.org/">
-            GoodMC<img alt=" 🌳 " height="26" src="" width="26">Original
-        </a>
-        <span class="menu-simplified-right">
+        <div class="menu-flex-container">
+            <a class="menu-logo" href="https://goodmc.org/">
+                <span style="margin-left: 10px;">GoodMC 🌳 Original</span>
+            </a>
+        </div>
+            <div class="menu-simplified-right">
                 <a class="hide-on-iphone" href="https://discord.gg/HWPAExBt3A">Discord</a>
                 <a class="button button-black" href="https://goodmc.org/main">Main page</a>
-            </span>
+            </div>
     </nav>
-
+    
     <div class="content doc">
         <h1>🏡 Claims<img draggable="false" src=""></h1>
 
