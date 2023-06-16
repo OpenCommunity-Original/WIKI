@@ -62,3 +62,8 @@ html[theme=dark] {
 html[theme="dark"] .menu-logo .tree-emoji {
     filter: invert(100%);
 }
+
+.menu-flex-container {
+    display: flex;
+    align-items: center;
+}
